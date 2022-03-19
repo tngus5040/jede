@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Letter Sketch';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Letter Sketch'), url(fonts/Letter-Sketch.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lora'), url(fonts/Lora-Regular.woff) format('woff');
+}
+
+body {
+    background-color: #FFF;
+    font-family: 'Lora';
+}
+
+
+header {
+    background-color: #A2E61C;                                 
+}
+
+header h1{
+    font-family: 'Letter Sketch', sans-serif;
+}
+nav{
+    border:solid;
+    border-color: #730099;
+}
+ul li {
+    display: inline-block;
+    padding: 1em;
+    background-color: #B217E6;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    
+    background-color: #B217E6;
+}
+section {
+    background-color: #FFF;
+    margin: 1em;
+}
+footer {
+    background-color: #A2E61C;
+}
